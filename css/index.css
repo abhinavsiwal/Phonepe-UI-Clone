@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #ffffff;
+  --primary: #5f259f;
+}
+/* -----Navbar----- */
+.navbar_ {
+  background-color: var(--white) !important;
+}
+.navbar-brand img {
+  height: 66px;
+  width: 155px;
+}
+.nav-item a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  display: block;
+  height: 44px;
+  /* line-height: 47px; */
+  margin: 0 1rem;
+}
+.active_::after {
+  content: "";
+  height: 14px;
+  display: block;
+  background-color: #5f259f;
+  width: 117%;
+  margin: 0.8rem -7%;
+  border-radius: 4px;
+}
