@@ -34,3 +34,61 @@
   margin: 0.8rem -7%;
   border-radius: 4px;
 }
+.navbar-divider {
+  margin-top: 6rem;
+}
+/* -----Carousel----- */
+.carousel-item img {
+  object-fit: cover;
+  object-position: center center;
+  height: 80vh;
+}
+/* ----Insurance Cards---- */
+.insurance-cards-section {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.insurance-div {
+  border: 1px solid #979797;
+  border-radius: 10px;
+  padding-right: 0.85rem;
+}
+.insurance-div:hover {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ 
+}
+.insurance-text {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  column-gap: 2rem;
+}
+.insurance-text h3 {
+  font-family: UniNeue, sans-serif, Helvetica, Arial;
+  color: #361968;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.insurance-text p {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.insurance-text img {
+  height: 25px;
+  width: 25px;
+  fill: #361968 !important;
+}
+.insurance-img {
+  margin-right: 0;
+  padding-right: 0;
+}
+.insurance-img img {
+  width: 100%;
+  height: 99.5%;
+}
+
+/* -----Simple Section----- */
+/* .simple-section{} */
