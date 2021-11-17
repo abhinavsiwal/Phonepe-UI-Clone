@@ -91,4 +91,36 @@
 }
 
 /* -----Simple Section----- */
-/* .simple-section{} */
+.simple-section{
+  margin-top: 4rem;
+}
+.simple-text-div{
+  display: flex;
+  flex-direction: column;
+  column-gap: 2rem;
+  margin-left: -50px;
+}
+.simple-text-div h2{
+  font-family: UniNeue,sans-serif,Helvetica,Arial;
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: -.57px;
+  color: #361374;
+  margin-bottom: 2rem;
+}
+.simple-text{
+  display: flex;
+  flex-direction: column;
+  column-gap: 1rem;
+}
+.simple-text h5{
+  color: #323232;
+  font-size: 1.4rem;
+  margin-bottom: 1.3rem;
+}
+.simple-text p{
+  font-size: .875rem;
+  line-height: 1.79;
+  letter-spacing: 0;
+  color: #333;
+}
